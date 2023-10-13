@@ -5,6 +5,11 @@ import requests
 app = FastAPI()
 
 @app.get('/')
+async def helper():
+    return {'Hi, Its working!!'}
+
+
+@app.get('/test')
 async def balabala():
     import gradio as gr
 
