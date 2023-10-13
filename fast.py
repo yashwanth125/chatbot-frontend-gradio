@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-import random
 import time
 import requests
 app = FastAPI()
