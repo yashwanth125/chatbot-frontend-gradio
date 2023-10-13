@@ -1,8 +1,4 @@
-llama_index
-pypdf
-openai
-langchain
-unstructured
+requests
+gradio
 fastapi
 uvicorn[standard]
-trafilatura
